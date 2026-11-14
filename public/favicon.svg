@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" fill="none" role="img" aria-label="Board Direction geometric arrow icon">
+  <title>Board Direction — brand color corrected arrow</title>
+  <!-- Square border matches the existing mark's geometry and teal color. -->
+  <rect x="12.5" y="12.5" width="475" height="475" stroke="#24776E" stroke-width="25" />
+  <!-- All arrow segments terminate at the SAME 377,123 junction. -->
+  <path d="M 153 366 L 377 123 M 272 123 H 377 V 222" stroke="#24776E" stroke-width="25" stroke-linecap="butt" stroke-linejoin="miter" />
+</svg>
