@@ -11,6 +11,10 @@
   <title>Services | Board Direction</title>
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/services-rto-inspired.css">
   <script src="../assets/js/main.js" defer></script>
 </head>
 <body>
@@ -30,11 +34,18 @@
       </nav>
     </div>
   </header>
-<main id="main-content">
-  <section class="page-hero container">
-    <span class="eyebrow">Services</span>
-    <h1>Three Ways To Find Your Direction.</h1>
-    <p>Not every board needs an overhaul. Sometimes a clearer focus, a better understanding of responsibilities, or a few changes to existing practices can make a meaningful difference.</p>
+<main id="main-content" class="bd-services">
+  <section class="bd-services__hero" aria-labelledby="services-title">
+    <div class="bd-services__inner bd-services__hero-inner">
+      <div class="bd-services__hero-copy">
+        <span class="bd-services__eyebrow">Services</span>
+        <h1 id="services-title" class="bd-services__hero-title">Three Ways To Find Your Direction.</h1>
+        <p class="bd-services__hero-lead">Not every board needs an overhaul. Sometimes a clearer focus, a better understanding of responsibilities, or a few changes to existing practices can make a meaningful difference.</p>
+      </div>
+      <figure class="bd-services__hero-visual">
+        <img class="bd-services__hero-artwork" src="../assets/images/bd-services-hero.webp" alt="Board Direction services artwork" width="560" height="560" loading="eager" fetchpriority="high" decoding="async">
+      </figure>
+    </div>
   </section>
   <section class="container services-list" aria-label="Board Direction Services">
     <article class="service-detail" id="realign">

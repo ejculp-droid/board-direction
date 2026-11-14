@@ -1,0 +1,58 @@
+/* About-inspired Services design; scoped to this page. The three services remain permanently visible. */
+#main-content.bd-services {font-family:"Inter",ui-sans-serif,system-ui,sans-serif;color:var(--ink,#30383C)}
+#main-content.bd-services .bd-services__inner,
+#main-content.bd-services .services-list.container {width:min(1060px,calc(100% - var(--gutter,60px)*2));margin-inline:auto}
+#main-content.bd-services h1,#main-content.bd-services h2,#main-content.bd-services h3 {
+ font-family:"Cormorant Garamond",Georgia,"Times New Roman",serif;font-weight:600;letter-spacing:-.025em}
+#main-content.bd-services p,#main-content.bd-services .button {font-family:"Inter",ui-sans-serif,system-ui,sans-serif}
+#main-content.bd-services .bd-services__eyebrow {display:block;margin:0 0 19px;color:var(--body,#626A6D);font:650 12px/1.5 "Inter",ui-sans-serif,system-ui,sans-serif;letter-spacing:.145em;text-transform:uppercase}
+#main-content.bd-services .bd-services__hero {padding-block:78px 76px;border-bottom:1px solid var(--line,#E2E7E4);background:var(--white,#FFFFFF)}
+#main-content.bd-services .bd-services__hero-inner {display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,420px);align-items:center;gap:clamp(42px,5vw,78px)}
+#main-content.bd-services .bd-services__hero-copy {min-width:0}
+#main-content.bd-services .bd-services__hero-title {max-width:13ch;margin:0 0 25px;color:var(--teal,#24776E);font-size:clamp(56px,5.5vw,82px);line-height:.97;text-wrap:balance}
+#main-content.bd-services .bd-services__hero-lead {max-width:55ch;margin:0;color:var(--body,#626A6D);font-size:17px;font-weight:400;line-height:1.78}
+#main-content.bd-services .bd-services__hero-visual {display:flex;align-items:center;justify-content:center;min-width:0;margin:0}
+#main-content.bd-services .bd-services__hero-artwork {display:block;width:100%;max-width:420px;height:auto;aspect-ratio:1;object-fit:contain;border-radius:0;background:var(--white,#FFFFFF)}
+/* Structured typographic sections. No buttons, accordions, scripts or hidden copy. */
+#main-content.bd-services .services-list {padding-bottom:18px}
+#main-content.bd-services .service-detail {
+ display:grid;grid-template-columns:minmax(0,205px) minmax(0,1fr);align-items:start;
+ gap:clamp(32px,4.5vw,58px);padding-block:60px 64px;border-top:0;
+ border-bottom:1px solid var(--line,#E2E7E4)}
+#main-content.bd-services .service-detail__side {display:flex;flex-direction:column;align-items:flex-start;gap:5px;min-width:0}
+#main-content.bd-services .service-detail__number {display:block;padding:0;margin:0;color:var(--body,#626A6D);font:650 12px/1.5 "Inter",ui-sans-serif,system-ui,sans-serif;letter-spacing:.14em}
+#main-content.bd-services .service-detail__name {color:var(--teal,#24776E);font-size:clamp(43px,4vw,56px);line-height:1.04;margin:0}
+#main-content.bd-services .service-detail__content {min-width:0}
+#main-content.bd-services .service-detail__content h3 {max-width:720px;margin:0 0 21px;color:var(--teal,#24776E);font-size:clamp(32px,3vw,41px);line-height:1.12}
+#main-content.bd-services .service-detail__content p {max-width:710px;margin:0 0 19px;color:var(--body,#626A6D);font-size:16.5px;font-weight:400;line-height:1.79}
+#main-content.bd-services .service-detail__content p:last-child {margin-bottom:0}
+#main-content.bd-services .service-detail__content .focus {max-width:690px;margin-top:28px;padding-left:17px;border-left:2px solid var(--teal,#24776E);color:var(--body,#626A6D);font-size:15.5px;line-height:1.65}
+#main-content.bd-services .service-detail__content .focus strong {color:var(--ink,#30383C);font-weight:700}
+#main-content.bd-services .callout {padding-block:76px 82px;background:var(--soft,#F5F6F5)}
+#main-content.bd-services .callout__inner {max-width:1060px;display:flex;align-items:center;gap:42px}
+#main-content.bd-services .callout h2 {max-width:650px;margin:0 0 15px;color:var(--teal,#24776E);font-size:clamp(39px,4vw,52px);line-height:1.06}
+#main-content.bd-services .callout p {color:var(--body,#626A6D);font-size:16.5px;line-height:1.75}
+@media(max-width:930px){
+ #main-content.bd-services .bd-services__hero-inner {grid-template-columns:minmax(0,1fr) minmax(250px,360px);gap:34px}
+ #main-content.bd-services .bd-services__hero-title {font-size:clamp(49px,5.7vw,64px)}
+ #main-content.bd-services .service-detail {grid-template-columns:minmax(0,175px) minmax(0,1fr);gap:32px}
+}
+@media(max-width:760px){
+ #main-content.bd-services .bd-services__hero {padding-block:57px 58px}
+ #main-content.bd-services .bd-services__hero-inner {grid-template-columns:1fr;gap:32px}
+ #main-content.bd-services .bd-services__hero-title {font-size:clamp(47px,8.5vw,66px)}
+ #main-content.bd-services .bd-services__hero-visual {justify-content:flex-start}
+ #main-content.bd-services .bd-services__hero-artwork {width:min(100%,390px)}
+ #main-content.bd-services .service-detail {grid-template-columns:1fr;gap:19px;padding-block:48px 55px}
+ #main-content.bd-services .service-detail__side {margin-bottom:0}
+ #main-content.bd-services .callout__inner {align-items:flex-start;flex-direction:column;gap:28px}
+}
+@media(max-width:620px){
+ #main-content.bd-services .bd-services__hero-title {font-size:clamp(44px,12vw,58px)}
+ #main-content.bd-services .bd-services__hero-lead {font-size:16px}
+ #main-content.bd-services .service-detail {padding-block:39px 47px}
+ #main-content.bd-services .service-detail__name {font-size:45px}
+ #main-content.bd-services .service-detail__content h3 {font-size:33px}
+ #main-content.bd-services .service-detail__content p {font-size:16px}
+ #main-content.bd-services .callout {padding-block:62px 69px}
+}
