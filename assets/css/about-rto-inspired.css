@@ -98,3 +98,46 @@
 #main-content.bd-about.is-enhanced .bd-accordion__item--audiences:not(.is-open) .who__list {
   display: none;
 }
+
+
+/* About only: compact the contact form to visually balance the left CTA copy.
+   Keep full fields, an expandable message box, and readable tap targets.
+   Do not impose max-height/overflow that could hide the inquiry form. */
+#main-content.bd-about .contact-form {
+  padding: 17px 21px 15px;
+  align-self: start;
+}
+#main-content.bd-about .contact-form__row {
+  margin-bottom: 10px;
+}
+#main-content.bd-about .contact-form label {
+  font-size: 12px;
+  line-height: 1.35;
+  margin-bottom: 4px;
+}
+#main-content.bd-about .contact-form input:not([type="hidden"]),
+#main-content.bd-about .contact-form textarea {
+  min-height: 42px;
+  padding: 9px 12px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+#main-content.bd-about .contact-form textarea {
+  height: 76px;
+  min-height: 76px;
+  resize: vertical;
+}
+#main-content.bd-about .contact-form .button {
+  min-height: 42px;
+  padding-block: 8px;
+  font-size: 13px;
+}
+#main-content.bd-about .contact-form .form-note {
+  margin: 7px 0 0 !important;
+  line-height: 1.5 !important;
+}
+@media (max-width: 850px) {
+  #main-content.bd-about .contact-form {
+    padding: 22px 20px;
+  }
+}
