@@ -155,3 +155,10 @@
 @media (max-width: 760px) {
  #main-content.bd-about .bd-accordion__panel-inner .about-copy__statement {margin-left:0;max-width:100%}
 }
+
+/* All on-site contact links now go directly to the inquiry form, not the
+   introductory column. The site's existing html scroll-padding-top already
+   accounts for the sticky navigation; this adds a little breathing room. */
+#main-content.bd-about #inquiry-form {
+  scroll-margin-top: 12px;
+}
