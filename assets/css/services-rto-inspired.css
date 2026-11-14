@@ -21,7 +21,7 @@
  border-bottom:1px solid var(--line,#E2E7E4)}
 #main-content.bd-services .service-detail__side {display:flex;flex-direction:column;align-items:flex-start;gap:5px;min-width:0}
 #main-content.bd-services .service-detail__number {display:block;padding:0;margin:0;color:var(--teal,#24776E);font:650 12px/1.5 "Inter",ui-sans-serif,system-ui,sans-serif;letter-spacing:.14em}
-#main-content.bd-services .service-detail__name {color:var(--body,#626A6D);font-family:"Inter",ui-sans-serif,system-ui,sans-serif;font-weight:500;letter-spacing:.145em;text-transform:uppercase;font-size:clamp(30px,2.8125vw,38.4375px);line-height:1.12;margin:0}
+#main-content.bd-services .service-detail__name {color:var(--body,#626A6D);font-family:"Inter",ui-sans-serif,system-ui,sans-serif;font-weight:500;letter-spacing:.145em;text-transform:uppercase;font-size:clamp(24px,2.25vw,30.75px);line-height:1.12;margin:0}
 #main-content.bd-services .service-detail__content {min-width:0}
 #main-content.bd-services .service-detail__content h3 {max-width:720px;margin:0 0 21px;color:var(--teal,#24776E);font-size:clamp(32px,3vw,41px);line-height:1.12}
 #main-content.bd-services .service-detail__content p {max-width:710px;margin:0 0 19px;color:var(--body,#626A6D);font-size:16.5px;font-weight:400;line-height:1.79}
@@ -51,7 +51,7 @@
  #main-content.bd-services .bd-services__hero-title {font-size:clamp(44px,12vw,58px)}
  #main-content.bd-services .bd-services__hero-lead {font-size:16px}
  #main-content.bd-services .service-detail {padding-block:39px 47px}
- #main-content.bd-services .service-detail__name {font-size:30.9375px}
+ #main-content.bd-services .service-detail__name {font-size:24.75px}
  #main-content.bd-services .service-detail__content h3 {font-size:33px}
  #main-content.bd-services .service-detail__content p {font-size:16px}
  #main-content.bd-services .callout {padding-block:62px 69px}
