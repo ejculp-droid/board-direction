@@ -11,7 +11,12 @@
   <title>About | Board Direction</title>
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/about-rto-inspired.css">
   <script src="../assets/js/main.js" defer></script>
+  <script src="../assets/js/about-accordion.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip To Content</a>
@@ -30,57 +35,53 @@
       </nav>
     </div>
   </header>
-<main id="main-content">
-  <section class="page-hero container about-intro" aria-labelledby="about-title">
-    <span class="eyebrow">About Board Direction</span>
-    <h1 id="about-title">Good People. Important Work. Better Direction.</h1>
-    <p>We believe capable people can come together for the right reasons and still benefit from a better way of working. Board Direction helps make that work more purposeful, productive, and impactful.</p>
-  </section>
-
-  <section class="section section--bordered about-copy-section" aria-labelledby="why-heading">
-    <div class="container"><div class="about-copy">
-      <h2 id="why-heading">Why We Exist</h2>
-      <p>A board's value should be reflected in the clarity of its direction, the quality of its decisions, and the progress made between meetings, not just the hours its members spend together.</p>
+<main id="main-content" class="bd-about">
+<section class="bd-about__hero" aria-labelledby="about-title"><div class="bd-about__inner bd-about__hero-inner">
+<div class="bd-about__hero-copy"><span class="bd-about__eyebrow">About Board Direction</span><h1 class="bd-about__hero-title" id="about-title">Good People. Important Work. Better Direction.</h1><p class="bd-about__hero-lead">We believe capable people can come together for the right reasons and still benefit from a better way of working. Board Direction helps make that work more purposeful, productive, and impactful.</p></div>
+<figure class="bd-about__hero-visual"><img class="bd-about__hero-artwork" src="../assets/images/bd-about-direction.webp" alt="Abstract geometric artwork in teal, charcoal, and white, featuring circles, intersecting shapes, and directional lines" width="560" height="560" loading="eager" fetchpriority="high" decoding="async"></figure>
+</div></section>
+<div class="bd-about__sections" aria-label="About Board Direction Details"><div class="bd-about__inner">
+<section class="bd-accordion__item" data-bd-accordion>
+<h2 class="bd-accordion__heading"><button type="button" class="bd-accordion__trigger" id="bd-purpose-trigger" aria-expanded="false" aria-controls="bd-purpose-panel"><span class="bd-accordion__heading-block"><span class="bd-about__eyebrow">Our Purpose</span><span class="bd-accordion__title">Why We Exist</span></span><span class="bd-accordion__icon" aria-hidden="true"></span></button></h2>
+<div class="bd-accordion__panel" id="bd-purpose-panel" role="region" aria-labelledby="bd-purpose-trigger"><div class="bd-accordion__panel-inner">
+<p>A board's value should be reflected in the clarity of its direction, the quality of its decisions, and the progress made between meetings, not just the hours its members spend together.</p>
       <p>Years of experience has taught us that good intentions, fancy titles and annual social events alone do not translate into board success.</p>
       <p>Board Members join boards for various reasons, have varying skill sets and varying degrees of committable time and energy. Which is okay and expected.</p>
       <p>Our purpose is simple: help boards spend less time managing their people and processes, and instead, more time <strong>advancing their purposes</strong>.</p>
-    </div></div>
-  </section>
-
-  <section class="section section--bordered about-copy-section" aria-labelledby="approach-heading">
-    <div class="container"><div class="about-copy">
-      <h2 id="approach-heading">A Practical Approach To Better Direction</h2>
-      <p>Board Direction begins by listening.</p>
+</div></div>
+</section>
+<section class="bd-accordion__item" data-bd-accordion>
+<h2 class="bd-accordion__heading"><button type="button" class="bd-accordion__trigger" id="bd-approach-trigger" aria-expanded="false" aria-controls="bd-approach-panel"><span class="bd-accordion__heading-block"><span class="bd-about__eyebrow">How We Work</span><span class="bd-accordion__title">A Practical Approach To Better Direction</span></span><span class="bd-accordion__icon" aria-hidden="true"></span></button></h2>
+<div class="bd-accordion__panel" id="bd-approach-panel" role="region" aria-labelledby="bd-approach-trigger"><div class="bd-accordion__panel-inner">
+<p>Board Direction begins by listening.</p>
       <p>The goal is to understand what your board is trying to accomplish, recognize what is already working, and identify where greater clarity, alignment, or better processes could make a difference.</p>
       <p>The approach is collaborative, respectful, and practical. It isn't about introducing complexity or replacing the judgment of those already serving.</p>
       <p>It's about helping that judgment translate into better use of time, clearer responsibilities, and progress that continues between meetings.</p>
       <p>Seeking an outside perspective isn't an admission that something is wrong. It's a commitment to making something important work better.</p>
       <p class="about-copy__statement"><strong>You don't need to spend more time on your board. You need to make more of the time you already give.</strong></p>
-    </div></div>
-  </section>
-
-  <section class="section section--bordered about-copy-section" aria-labelledby="experience-heading">
-    <div class="container"><div class="about-copy">
-      <h2 id="experience-heading">Experience Behind The Perspective</h2>
-      <p>Founded by Elliott J. Culp, Board Direction is grounded in firsthand experience serving on boards, working alongside them, helping lead and develop them, and shaping the structures and practices that support effective governance.</p>
+</div></div>
+</section>
+<section class="bd-accordion__item" data-bd-accordion>
+<h2 class="bd-accordion__heading"><button type="button" class="bd-accordion__trigger" id="bd-experience-trigger" aria-expanded="false" aria-controls="bd-experience-panel"><span class="bd-accordion__heading-block"><span class="bd-about__eyebrow">Our Experience</span><span class="bd-accordion__title">Experience Behind The Perspective</span></span><span class="bd-accordion__icon" aria-hidden="true"></span></button></h2>
+<div class="bd-accordion__panel" id="bd-experience-panel" role="region" aria-labelledby="bd-experience-trigger"><div class="bd-accordion__panel-inner">
+<p>Founded by Elliott J. Culp, Board Direction is grounded in firsthand experience serving on boards, working alongside them, helping lead and develop them, and shaping the structures and practices that support effective governance.</p>
       <p>That experience is complemented by a broad foundation in executive advisory, organizational development, leadership, strategic planning, and organizational decision-making.</p>
       <p>Together, these perspectives provide an understanding of governance that extends beyond the meeting room. We understand the relationships, responsibilities, competing priorities, and organizational realities that influence how boards function and how their decisions take effect.</p>
-    </div></div>
-  </section>
-  <section class="who" aria-labelledby="who-title">
-    <div class="container">
-      <div class="who__main">
-        <h2 id="who-title">Who We Work With.</h2>
-        <ul class="who__list" aria-label="Types of boards we work with">
+</div></div>
+</section>
+<section class="bd-accordion__item" data-bd-accordion>
+<h2 class="bd-accordion__heading"><button type="button" class="bd-accordion__trigger" id="bd-audiences-trigger" aria-expanded="false" aria-controls="bd-audiences-panel"><span class="bd-accordion__heading-block"><span class="bd-about__eyebrow">Who We Serve</span><span class="bd-accordion__title">Who We Work With.</span></span><span class="bd-accordion__icon" aria-hidden="true"></span></button></h2>
+<div class="bd-accordion__panel" id="bd-audiences-panel" role="region" aria-labelledby="bd-audiences-trigger"><div class="bd-accordion__panel-inner">
+<ul class="who__list" aria-label="Types of boards we work with">
           <li>Businesses</li>
           <li>Institutions</li>
           <li>Organizations</li>
           <li>Nonprofits</li>
         </ul>
-        <p class="who__statement">Board Direction collaborates with boards ready to align their people and priorities, clarify responsibilities and expectations, and improve the structures and processes that turn decisions into action.</p>
-      </div>
-    </div>
-  </section>
+<p class="who__statement">Board Direction collaborates with boards ready to align their people and priorities, clarify responsibilities and expectations, and improve the structures and processes that turn decisions into action.</p>
+</div></div>
+</section>
+</div></div>
   <section class="contact-section" id="contact" aria-labelledby="contact-title">
     <div class="container contact-grid">
       <div><span class="eyebrow">Start Here</span><h2 id="contact-title">Let's Talk About Your Board.</h2><p>Seeking another perspective isn't an admission that something is wrong. It's a commitment to making something important work better.</p><p>Tell us what your board is trying to accomplish. A conversation is a good place to start.</p><p class="contact-direct">Or email us directly at <a href="mailto:info@board-direction.com">info@board-direction.com</a>.</p></div>
