@@ -36,7 +36,7 @@
 #main-content.bd-about .bd-accordion__panel-inner .about-copy__statement {max-width:810px;margin-top:30px;padding-left:23px;border-left:3px solid var(--teal,#24776E);color:var(--ink,#30383C);font-family:"Cormorant Garamond",Georgia,serif;font-style:italic;font-weight:600;font-size:clamp(20px,2vw,24px);line-height:1.35}
 #main-content.bd-about .bd-accordion__panel-inner .about-copy__statement strong {color:inherit;font-weight:inherit}
 #main-content.bd-about .who__list {display:flex;flex-wrap:wrap;gap:12px 23px;max-width:880px;margin:4px 0 27px;padding:0;list-style:none}
-#main-content.bd-about .who__list li {border:0;border-left:2px solid var(--teal,#24776E);padding:0 0 0 12px;color:var(--ink,#30383C);font-size:15px;font-weight:600;line-height:1.6}
+#main-content.bd-about .who__list li {border:0;border-left:2px solid var(--teal,#24776E);padding:0 0 0 12px;color:var(--body,#626A6D);font-size:15px;font-weight:600;line-height:1.6}
 #main-content.bd-about .who__list li::before {display:none}
 #main-content.bd-about .contact-section {padding-block:82px 92px;background:var(--soft,#F5F6F5)}
 #main-content.bd-about .contact-grid {max-width:1060px;margin-inline:auto}
@@ -90,4 +90,11 @@
     position:static;
     pointer-events:auto;
   }
+}
+
+/* Keep the audience names in their existing location, but reveal them
+   only while "Who We Work With" is expanded. In no-JS mode, they remain
+   visible so the page content is still accessible. */
+#main-content.bd-about.is-enhanced .bd-accordion__item--audiences:not(.is-open) .who__list {
+  display: none;
 }
