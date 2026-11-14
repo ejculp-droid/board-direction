@@ -1,0 +1,171 @@
+{
+  "brand": "BOARD DIRECTION",
+  "brand_line": "RECENTER YOUR WHY.",
+  "source": "Board Direction Official Color Guide",
+  "source_date": "2026-11-14",
+  "status": "official digital color standard",
+  "print_note": "CMYK approximations only; use physical press proof. No official Pantone match.",
+  "primary": {
+    "white": {
+      "hex": "#FFFFFF",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "cmyk_approx": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "css_token": "--white",
+      "usage": "Page backgrounds and negative space"
+    },
+    "soft_gray": {
+      "hex": "#F5F6F5",
+      "rgb": [
+        245,
+        246,
+        245
+      ],
+      "cmyk_approx": [
+        0,
+        0,
+        0,
+        4
+      ],
+      "css_token": "--soft",
+      "usage": "Subtle section backgrounds"
+    },
+    "charcoal": {
+      "hex": "#30383C",
+      "rgb": [
+        48,
+        56,
+        60
+      ],
+      "cmyk_approx": [
+        20,
+        7,
+        0,
+        76
+      ],
+      "css_token": "--ink",
+      "usage": "Titles, headings, primary content"
+    },
+    "brand_teal": {
+      "hex": "#24776E",
+      "rgb": [
+        36,
+        119,
+        110
+      ],
+      "cmyk_approx": [
+        70,
+        0,
+        8,
+        53
+      ],
+      "css_token": "--teal",
+      "usage": "Brand mark, CTAs, links and accents"
+    }
+  },
+  "supporting": {
+    "deep_charcoal": {
+      "hex": "#293136",
+      "css_token": "--ink-deep"
+    },
+    "body_gray": {
+      "hex": "#626A6D",
+      "css_token": "--body"
+    },
+    "dark_teal": {
+      "hex": "#1D5F57",
+      "css_token": "--teal-dark"
+    },
+    "border_gray": {
+      "hex": "#E2E7E4",
+      "css_token": "--line"
+    }
+  },
+  "utility": {
+    "selection": {
+      "hex": "#D9EDE8",
+      "usage": "Selected text background"
+    },
+    "focus_ring": {
+      "hex": "#7DADA6",
+      "usage": "Keyboard focus indicator"
+    },
+    "outline_hover": {
+      "hex": "#EDF5F2",
+      "usage": "Outline button hover background"
+    },
+    "image_fallback": {
+      "hex": "#ECF0ED",
+      "usage": "Boardroom image fallback surface"
+    },
+    "input_border": {
+      "hex": "#D0D9D5",
+      "usage": "Form field border"
+    },
+    "form_note": {
+      "hex": "#737D7B",
+      "usage": "Small form guidance text"
+    },
+    "form_success": {
+      "hex": "#EFF6F3",
+      "usage": "Successful form status surface"
+    },
+    "footer_copy": {
+      "hex": "#71797B",
+      "usage": "Footer small-print typography"
+    }
+  },
+  "buttons": {
+    "primary": {
+      "background": "#24776E",
+      "text": "#FFFFFF"
+    },
+    "outline": {
+      "background": "#FFFFFF",
+      "text": "#24776E"
+    }
+  },
+  "accessibility_approved_pairs": [
+    {
+      "foreground": "#30383C",
+      "background": "#FFFFFF",
+      "contrast_ratio_reported": "11.95:1",
+      "rating_reported": "AA"
+    },
+    {
+      "foreground": "#626A6D",
+      "background": "#FFFFFF",
+      "contrast_ratio_reported": "5.52:1",
+      "rating_reported": "AA"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "background": "#24776E",
+      "contrast_ratio_reported": "5.33:1",
+      "rating_reported": "AA"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "background": "#1D5F57",
+      "contrast_ratio_reported": "7.43:1",
+      "rating_reported": "AA"
+    }
+  ],
+  "prohibited_uses": [
+    "Light borders as body text",
+    "Brand Teal text on Charcoal",
+    "Supporting gray for primary calls to action"
+  ],
+  "notes": [
+    "Source gives no font family, grid, spacing, or logo-clear-space specifications.",
+    "Do not treat unlisted contrast combinations as approved."
+  ]
+}
