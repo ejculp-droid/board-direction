@@ -33,6 +33,15 @@
 #main-content.bd-about .bd-accordion__panel-inner p {max-width:880px;margin:0 0 19px;color:var(--body,#626A6D);font-size:16.5px;line-height:1.79}
 #main-content.bd-about .bd-accordion__panel-inner p:last-child {margin-bottom:0}
 #main-content.bd-about .bd-accordion__panel-inner strong {color:var(--ink,#30383C);font-weight:700}
+#main-content.bd-about #bd-purpose-panel p strong {
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: 700;
+  letter-spacing: inherit;
+  line-height: inherit;
+  color: inherit;
+}
 #main-content.bd-about .bd-accordion__panel-inner .about-copy__statement {max-width:610px;margin:30px 0 0 clamp(64px,12vw,160px);padding-left:23px;border-left:3px solid var(--teal,#24776E);color:var(--body,#626A6D);font-family:"Cormorant Garamond",Georgia,serif;font-style:italic;font-weight:600;font-size:clamp(20px,2vw,24px);line-height:1.35;text-wrap:balance}
 #main-content.bd-about .bd-accordion__panel-inner .about-copy__statement strong {display:block;color:inherit;font-weight:inherit;transform:skewX(-2deg);transform-origin:left center}
 #main-content.bd-about .who__list {display:flex;flex-wrap:wrap;gap:12px 23px;max-width:880px;margin:4px 0 27px;padding:0;list-style:none}
